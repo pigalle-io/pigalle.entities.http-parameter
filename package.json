@@ -1,8 +1,8 @@
 {
   "name": "@pigalle/entities.http.parameter",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A base entity to pass HTTP parameters using the Pigalle framework.",
-  "main": "lib/http.parameter.js",
+  "main": "lib/http-parameter-entity.js",
   "scripts": {
     "test": "nyc mocha",
     "lint": "node ./node_modules/standard/bin/cmd.js --fix",
