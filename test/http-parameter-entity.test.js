@@ -1,5 +1,5 @@
 /**
- * This file is part of pigalle.entities.http-parameter
+ * This file is part of pigalle.entities.http.request.parameter
  *
  * Copyright (c) 2018 SAS 9 Février.
  *

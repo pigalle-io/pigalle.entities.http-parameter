@@ -1,30 +1,30 @@
-[npm-badge]: https://img.shields.io/npm/v/@pigalle/entities.http.parameter.svg
-[npm-badge-url]: https://www.npmjs.com/package/@pigalle/entities.http.parameter
-[npm-downloads-badge]: https://img.shields.io/npm/dt/@pigalle/entities.http.parameter.svg
-[npm-downloads-url]: https://npmjs.org/package/@pigalle/entities.http.parameter
-[travis-badge]: https://img.shields.io/travis/pigalle-io/pigalle.entities.http.parameter/master.svg?label=TravisCI
-[travis-badge-url]: https://travis-ci.org/pigalle-io/pigalle.entities.http.parameter
-[circle-badge]: https://circleci.com/gh/pigalle-io/pigalle.entities.http.parameter/tree/master.svg?style=svg&circle-token=
-[circle-badge-url]: https://circleci.com/gh/pigalle-io/pigalle.entities.http.parameter/tree/master
-[coveralls-badge]: https://coveralls.io/repos/github/pigalle-io/pigalle.entities.http.parameter/badge.svg?branch=master
-[coveralls-badge-url]: https://coveralls.io/github/pigalle-io/pigalle.entities.http.parameter?branch=master
-[codeclimate-badge]: https://img.shields.io/codeclimate/github/pigalle-io/pigalle.entities.http.parameter.svg
-[codeclimate-badge-url]: https://codeclimate.com/github/pigalle-io/pigalle.entities.http.parameter
-[ember-observer-badge]: http://emberobserver.com/badges/pigalle.entities.http.parameter.svg
-[ember-observer-badge-url]: http://emberobserver.com/addons/pigalle.entities.http.parameter
-[license-badge]: https://img.shields.io/npm/l/@pigalle/entities.http.parameter.svg
+[npm-badge]: https://img.shields.io/npm/v/@pigalle/entities.http.request.parameter.svg
+[npm-badge-url]: https://www.npmjs.com/package/@pigalle/entities.http.request.parameter
+[npm-downloads-badge]: https://img.shields.io/npm/dt/@pigalle/entities.http.request.parameter.svg
+[npm-downloads-url]: https://npmjs.org/package/@pigalle/entities.http.request.parameter
+[travis-badge]: https://img.shields.io/travis/pigalle-io/pigalle.entities.http.request.parameter/master.svg?label=TravisCI
+[travis-badge-url]: https://travis-ci.org/pigalle-io/pigalle.entities.http.request.parameter
+[circle-badge]: https://circleci.com/gh/pigalle-io/pigalle.entities.http.request.parameter/tree/master.svg?style=svg&circle-token=
+[circle-badge-url]: https://circleci.com/gh/pigalle-io/pigalle.entities.http.request.parameter/tree/master
+[coveralls-badge]: https://coveralls.io/repos/github/pigalle-io/pigalle.entities.http.request.parameter/badge.svg?branch=master
+[coveralls-badge-url]: https://coveralls.io/github/pigalle-io/pigalle.entities.http.request.parameter?branch=master
+[codeclimate-badge]: https://img.shields.io/codeclimate/github/pigalle-io/pigalle.entities.http.request.parameter.svg
+[codeclimate-badge-url]: https://codeclimate.com/github/pigalle-io/pigalle.entities.http.request.parameter
+[ember-observer-badge]: http://emberobserver.com/badges/pigalle.entities.http.request.parameter.svg
+[ember-observer-badge-url]: http://emberobserver.com/addons/pigalle.entities.http.request.parameter
+[license-badge]: https://img.shields.io/npm/l/@pigalle/entities.http.request.parameter.svg
 [license-badge-url]: LICENSE.md
-[dependencies-badge]: https://img.shields.io/david/pigalle-io/pigalle.entities.http.parameter.svg
-[dependencies-badge-url]: https://david-dm.org/pigalle-io/pigalle.entities.http.parameter
-[devDependencies-badge]: https://img.shields.io/david/dev/pigalle-io/pigalle.entities.http.parameter.svg
-[devDependencies-badge-url]: https://david-dm.org/pigalle-io/pigalle.entities.http.parameter#info=devDependencies
-[greenkeeper-badge]: https://badges.greenkeeper.io/pigalle-io/pigalle.entities.http.parameter.svg
+[dependencies-badge]: https://img.shields.io/david/pigalle-io/pigalle.entities.http.request.parameter.svg
+[dependencies-badge-url]: https://david-dm.org/pigalle-io/pigalle.entities.http.request.parameter
+[devDependencies-badge]: https://img.shields.io/david/dev/pigalle-io/pigalle.entities.http.request.parameter.svg
+[devDependencies-badge-url]: https://david-dm.org/pigalle-io/pigalle.entities.http.request.parameter#info=devDependencies
+[greenkeeper-badge]: https://badges.greenkeeper.io/pigalle-io/pigalle.entities.http.request.parameter.svg
 [greenkeeper-badge-url]: https://greenkeeper.io/
 [standardjs-badge]: https://img.shields.io/badge/code_style-standard-brightgreen.svg
 [standardjs-badge-url]: https://standardjs.com
 
 
-# pigalle.entities.http.parameter
+# pigalle.entities.http.request.parameter
 
 A base entity to pass HTTP parameters using the Pigalle framework.
 
@@ -73,7 +73,7 @@ A base entity to pass HTTP parameters using the Pigalle framework.
 ```javascript
 
 
-const {HttpParameterEntity} = require('@pigalle/entities.http.parameter')
+const {HttpParameterEntity} = require('@pigalle/entities.http.request.parameter')
 
 // A custom HttpParameter
 class QueryParam extends HttpParameterEntity {
@@ -88,7 +88,7 @@ const param = QueryParam.factory('param')
 
 ## <a name="installation"> Installation
 
-    npm install @pigalle/entities.http.parameter
+    npm install @pigalle/entities.http.request.parameter
 
 ## <a name="api-reference"> API Reference
 
@@ -127,7 +127,7 @@ Untested at this time.
 
 ## <a name="issues"> Issues
 
-Feel free to [submit issues](https://github.com/pigalle-io/pigalle.entities.http.parameter/issues) and enhancement requests.
+Feel free to [submit issues](https://github.com/pigalle-io/pigalle.entities.http.request.parameter/issues) and enhancement requests.
 
 ## <a name="contributing"> Contributing
 

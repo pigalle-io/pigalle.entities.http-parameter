@@ -14,7 +14,7 @@ A base to generate derived class for managing different HTTP params.
 
 **Example**  
 ```js
-const {HttpParameterEntity} = require('@pigalle/entities.http.parameter')
+const {HttpParameterEntity} = require('@pigalle/entities.http.request.parameter')
 
 // A custom HttpParameter
 class QueryParam extends HttpParameterEntity {
@@ -52,6 +52,6 @@ const param = QueryParam.factory('param')
 
 ***
 
-_Documentation generated on Thu, 01 Mar 2018 17:52:24 GMT_
+_Documentation generated on Thu, 01 Mar 2018 19:04:17 GMT_
 
 **Copyright &copy; 2018 [SAS 9 Février](https://9fevrier.com/)**

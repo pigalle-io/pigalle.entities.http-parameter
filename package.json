@@ -1,6 +1,6 @@
 {
-  "name": "@pigalle/entities.http.parameter",
-  "version": "0.1.1",
+  "name": "@pigalle/entities.http.request.parameter",
+  "version": "0.1.2",
   "description": "A base entity to pass HTTP parameters using the Pigalle framework.",
   "main": "lib/http-parameter-entity.js",
   "scripts": {
@@ -18,7 +18,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pigalle-io/pigalle.entities.http.parameter.git"
+    "url": "git+https://github.com/pigalle-io/pigalle.entities.http.request.parameter.git"
   },
   "keywords": [
     [
@@ -40,9 +40,9 @@
   "author": "SAS 9 Février <contact@9fevrier.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pigalle-io/pigalle.entities.http.parameter/issues"
+    "url": "https://github.com/pigalle-io/pigalle.entities.http.request.parameter/issues"
   },
-  "homepage": "https://github.com/pigalle-io/pigalle.entities.http.parameter#readme",
+  "homepage": "https://github.com/pigalle-io/pigalle.entities.http.request.parameter#readme",
   "devDependencies": {
     "JSONPath": "^0.11.2",
     "coveralls": "^3.0.0",
